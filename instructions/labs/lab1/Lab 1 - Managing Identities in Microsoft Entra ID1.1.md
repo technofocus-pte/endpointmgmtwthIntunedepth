@@ -68,13 +68,19 @@ Task 1: Create users by using the Microsoft Entra admin center
 6.  On the **New User** page, ensure that **Create user** is selected,
     enter the following:
 
-    - User principal name: !\![**ereeve**](urn:gd:lg:a:send-vm-keys)!!
+    - User principal name:
+    #
+        ereeve
 
-    - Display Name: !\![**Edmund Reeve**](urn:gd:lg:a:send-vm-keys)!!
+    - Display Name:
+     #
+        Edmund Reeve
 
     - Uncheck **Auto-generate password.**
 
-    - Password **–** !!**P@55w.rd1234**!!
+    - Password:
+    #
+        P@55w.rd1234
 
 > ![A screenshot of a computer Description automatically
 > generated](./media/image6.png)
