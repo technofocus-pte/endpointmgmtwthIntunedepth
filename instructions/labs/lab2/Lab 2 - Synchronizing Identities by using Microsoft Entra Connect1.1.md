@@ -25,91 +25,92 @@ Entra Connect synchronization tool.
 ![](./media/image1.png)
 
 3.  Run the following script on the PowerShell.
+      
 
-**If** (-Not (Test-Path
-'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319'))
+        If (-Not (Test-Path
+        'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319'))
 
-{
+        {
 
-New-Item 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319'
--Force | Out-Null
+        New-Item 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319'
+        -Force | Out-Null
 
-}
+        }
 
-New-ItemProperty -Path
-'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319' -Name
-'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force |
-Out-Null
+        New-ItemProperty -Path
+        'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319' -Name
+        'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force |
+        Out-Null
 
-New-ItemProperty -Path
-'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319' -Name
-'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-Null
+        New-ItemProperty -Path
+        'HKLM:\SOFTWARE\WOW6432Node\Microsoft\\NETFramework\v4.0.30319' -Name
+        'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-Null
 
-**If** (-Not (Test-Path
-'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319'))
+        If (-Not (Test-Path
+        'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319'))
 
-{
+        {
 
-New-Item 'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Force |
-Out-Null
+        New-Item 'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Force |
+        Out-Null
 
-}
+        }
 
-New-ItemProperty -Path
-'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Name
-'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force |
-Out-Null
-
-New-ItemProperty -Path
-'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Name
-'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-Null
-
-**If** (-Not (Test-Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Server'))
-
-{
-
-New-Item
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Server' -Force | Out-Null
-
-}
-
-New-ItemProperty -Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Server' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force |
-Out-Null
-
-New-ItemProperty -Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Server' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord'
--Force | Out-Null
-
-**If** (-Not (Test-Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Client'))
-
-{
-
-New-Item
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Client' -Force | Out-Null
-
-}
-
-New-ItemProperty -Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Client' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force |
-Out-Null
-
-New-ItemProperty -Path
-'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
-1.2\Client' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord'
--Force | Out-Null
-
-Write-Host 'TLS 1.2 has been enabled. You must restart the Windows
-Server for the changes to take affect.' -ForegroundColor Cyan
+        New-ItemProperty -Path
+        'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Name
+        'SystemDefaultTlsVersions' -Value '1' -PropertyType 'DWord' -Force |
+        Out-Null
+        
+        New-ItemProperty -Path
+        'HKLM:\SOFTWARE\Microsoft\\NETFramework\v4.0.30319' -Name
+        'SchUseStrongCrypto' -Value '1' -PropertyType 'DWord' -Force | Out-Null
+        
+        If (-Not (Test-Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Server'))
+        
+        {
+        
+        New-Item
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Server' -Force | Out-Null
+        
+        }
+        
+        New-ItemProperty -Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Server' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force |
+        Out-Null
+        
+        New-ItemProperty -Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Server' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord'
+        -Force | Out-Null
+        
+        If (-Not (Test-Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Client'))
+        
+        {
+        
+        New-Item
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Client' -Force | Out-Null
+        
+        }
+        
+        New-ItemProperty -Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Client' -Name 'Enabled' -Value '1' -PropertyType 'DWord' -Force |
+        Out-Null
+        
+        New-ItemProperty -Path
+        'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS
+        1.2\Client' -Name 'DisabledByDefault' -Value '0' -PropertyType 'DWord'
+        -Force | Out-Null
+        
+        Write-Host 'TLS 1.2 has been enabled. You must restart the Windows
+        Server for the changes to take affect.' -ForegroundColor Cyan
 
 ![](./media/image2.png)
 
@@ -121,14 +122,16 @@ Server for the changes to take affect.' -ForegroundColor Cyan
 
 1.  On [***SEA-SVR1***](urn:gd:lg:a:select-vm), if necessary, sign in
     as [**Contoso\Administrator**](urn:gd:lg:a:send-vm-keys) with the
-    password of !\![**Pa55w.rd**](urn:gd:lg:a:send-vm-keys)!!
+    password of
+    #
+            Pa55w.rd
 
-2.  On the taskbar, select **Microsoft Edge**.
+3.  On the taskbar, select **Microsoft Edge**.
 
-3.  In the address bar,
+4.  In the address bar,
     enter !\![**http://www.microsoft.com/en-us/download/details.aspx?id=47594**](urn:gd:lg:a:send-vm-keys)!!
 
-4.  On the Microsoft Entra Connect page, select **Download**.
+5.  On the Microsoft Entra Connect page, select **Download**.
 
 > Microsoft Entra Connect automatically downloads to
 > the **Downloads** folder on **SEA-SVR1**.
