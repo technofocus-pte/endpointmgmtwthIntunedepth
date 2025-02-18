@@ -129,9 +129,11 @@ Entra Connect synchronization tool.
 3.  On the taskbar, select **Microsoft Edge**.
 
 4.  In the address bar,
-    enter !\![**http://www.microsoft.com/en-us/download/details.aspx?id=47594**](urn:gd:lg:a:send-vm-keys)!!
+    enter
+       #
+            http://www.microsoft.com/en-us/download/details.aspx?id=47594
 
-5.  On the Microsoft Entra Connect page, select **Download**.
+6.  On the Microsoft Entra Connect page, select **Download**.
 
 > Microsoft Entra Connect automatically downloads to
 > the **Downloads** folder on **SEA-SVR1**.
