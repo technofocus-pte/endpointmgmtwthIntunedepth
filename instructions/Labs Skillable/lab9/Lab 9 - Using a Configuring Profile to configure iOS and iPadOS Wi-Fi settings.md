@@ -47,9 +47,9 @@ follows:
 
     - Group type: **Security**
 
-    - Group name: !!iOS_iPadOS Devices!!
+    - Group name: ++iOS_iPadOS Devices++
 
-    - Group description: !!All iOS and iPadOS devices!!
+    - Group description: ++All iOS and iPadOS devices++
 
     - Membership type: **Assigned**
 
@@ -99,9 +99,9 @@ requirements**
 6.  In the **Basics** blade, enter the following information, and then
     select **Next**:
 
-    - Name: !!iOS/iPadOS Wi-Fi Policy!!
+    - Name: ++iOS/iPadOS Wi-Fi Policy++
 
-    - Description: !!Wi-Fi settings for iOS/iPadOS Devices!!
+    - Description: ++Wi-Fi settings for iOS/iPadOS Devices++
 
      ![A screenshot of a computer Description automatically
      generated](./media/image9.png)
@@ -114,15 +114,15 @@ requirements**
 8.  On the **Configuration settings** blade, select the following
     options, and then select **Next**:
 
-    - Network name: !!Contoso Wi-Fi!!
+    - Network name: ++Contoso Wi-Fi++
 
-    - SSID: !!MainOffice!!
+    - SSID: ++MainOffice++
 
     - Connect automatically: **Enable**
 
     - Security type: **WPA/WPA2-Personal**
 
-    - Pre-Shared key: !!ContosoWiFi123!!
+    - Pre-Shared key: ++ContosoWiFi123++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image10.png)
