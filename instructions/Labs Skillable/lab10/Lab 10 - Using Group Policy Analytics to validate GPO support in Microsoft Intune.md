@@ -18,8 +18,8 @@ identify which settings can be successfully migrated into Intune.
 
 **Task 1: Export the Windows Client Policy GPO to an XML file**
 
-1.  Login to SEA-SVR1 with the provided credentials search bar, type !!**Server
-    Manager**!! and then select it.
+1.  Login to SEA-SVR1 with the provided credentials search bar, type ++**Server
+    Manager**++ and then select it.
 
     ![](./media/image1.png)
 
@@ -55,7 +55,7 @@ identify which settings can be successfully migrated into Intune.
 
 **Task 2: Analyze the Windows Client GPO using Group Policy Analytics**
 
-1.  Open Microsoft Edge, type !!https://intune.microsoft.com!! in
+1.  Open Microsoft Edge, type ++https://intune.microsoft.com++ in
     the address bar, and then press **Enter**.
 
 2.  Sign in with Office 365 Tenant credentials if prompted.
