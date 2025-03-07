@@ -35,7 +35,7 @@ ensure that the kiosk is configured as follows:
 
 1.  Sign in
     to SEA-WS2 as **Admin** with
-    the password of !!Pa55w.rd!!.
+    the password of ++Pa55w.rd++.
 
 2.  On the taskbar, select **Start** and then select **Settings**.
 
@@ -63,13 +63,13 @@ ensure that the kiosk is configured as follows:
     generated](./media/image5.png)
 
 7.  On the **Sign in** page,
-    type !!**AllanD@M365xXXXXXX.onmicrosoft.com**!! and then
+    type ++**AllanD@M365xXXXXXX.onmicrosoft.com**++ and then
     select **Next**.
 
     ![](./media/image6.png)
 
 8.  On the **Enter password** page, enter the tenant password:
-    !!**P@55w.rd1234**!! and then select **Sign in**.
+    ++**P@55w.rd1234**++ and then select **Sign in**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image7.png)
@@ -122,9 +122,9 @@ ensure that the kiosk is configured as follows:
 
     - Group type: **Security**
 
-    - Group name: !!Contoso Kiosk Devices!!
+    - Group name: ++Contoso Kiosk Devices++
 
-    - Group description: !!All Windows devices configured as a Kiosk!!
+    - Group description: ++All Windows devices configured as a Kiosk++
 
     - Membership type: **Assigned**
 
@@ -181,7 +181,7 @@ requirements**
 
     - Profile type: **Templates**
 
-    - Template name: !!**Kiosk**!!
+    - Template name: ++**Kiosk**++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image23.png)
@@ -189,9 +189,9 @@ requirements**
 6.  In the **Basics** blade, enter the following information, and then
     select **Next**:
 
-    - Name: !!Contoso Kiosk Policy!!
+    - Name: ++Contoso Kiosk Policy++
 
-    - Description: !!Basic settings for Contoso Kiosk Devices.!!
+    - Description: ++Basic settings for Contoso Kiosk Devices.++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image24.png)
@@ -209,7 +209,7 @@ requirements**
 
     - Application type: **Add Microsoft Edge browser**
 
-    - Edge Kiosk URL: !!http://bing.com!!
+    - Edge Kiosk URL: ++http://bing.com++
 
     - Microsoft Edge kiosk mode type: **Public Browsing (InPrivate)**
 
@@ -226,8 +226,8 @@ requirements**
     ![A screenshot of a computer Description automatically
     generated](./media/image26.png)
 
-10. In the **Select groups to include** window, select !!Contoso Kiosk
-    Devices!!, and then click **Select**.
+10. In the **Select groups to include** window, select ++Contoso Kiosk
+    Devices++, and then click **Select**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image27.png)
@@ -256,7 +256,7 @@ requirements**
 
 1.  Sign in
     to SEA-WS2 as **Admin** with
-    the password of !!Pa55w.rd!!.
+    the password of ++Pa55w.rd++.
 
 2.  On the taskbar, select **Start** and then select **Settings**.
 
