@@ -50,8 +50,8 @@ developer's Windows devices:
 1.  Sign in
     to SEA-WS1 as Cindy
     White using her credentials
-    !!Cindy@M365xXXXXXX.onmicrosoft.com!! with the
-    PIN !!102938!! or Password !!P@55w.rd1234!!
+    ++Cindy@M365xXXXXXX.onmicrosoft.com++ with the
+    PIN ++102938++ or Password ++P@55w.rd1234++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image1.png)
@@ -158,7 +158,7 @@ requirements**
 
     - Profile type: **Templates**
 
-    - Template name: !!Device restrictions!!
+    - Template name: ++Device restrictions++
 
     ![A screenshot of a profile Description automatically
     generated](./media/image17.png)
@@ -166,10 +166,10 @@ requirements**
 7.  In the **Basics** blade, enter the following information, and then
     select **Next**:
 
-    - Name: !!Contoso Developer - standard!!
+    - Name: ++Contoso Developer - standard++
 
     - Description: 
-     !!Basic restrictions and configuration for Contoso Developers!!
+     ++Basic restrictions and configuration for Contoso Developers++
 
     ![](./media/image18.png)
 
@@ -210,9 +210,9 @@ requirements**
 14. Under **Microsoft Defender Antivirus Exclusions** provide the below
     details and click on the **Next** button:
 
-    - Files and folders box - !!**C:\DevProjects**!!
+    - Files and folders box - ++**C:\DevProjects**++
 
-    - Processes box - !!**DevBuild.exe**!!
+    - Processes box - ++**DevBuild.exe**++
 
     ![](./media/image25.png)
 
@@ -253,10 +253,10 @@ requirements**
 
     - Group type: **Security**
 
-    - Group name: !!Contoso Developer devices!!
+    - Group name: ++Contoso Developer devices++
 
     - Group description: 
-    !!All Windows devices in Contoso Developer department!!
+    ++All Windows devices in Contoso Developer department++
 
     - Membership type: **Assigned**
 
@@ -264,7 +264,7 @@ requirements**
 
     ![](./media/image32.png)
 
-5.  On the **Add members** blade, in the **Search** box type !!Sea!! .
+5.  On the **Add members** blade, in the **Search** box type ++Sea++ .
     Select **SEA-WS1** and then choose **Select**.
 
     ![A screenshot of a computer Description automatically
@@ -291,7 +291,7 @@ requirements**
 
     - Group type: **Security**
 
-    - Group name: !!Windows Devices!!
+    - Group name: ++Windows Devices++
 
     - Membership type: **Dynamic Device**
 
@@ -310,7 +310,7 @@ requirements**
 5.  In the **Edit rule syntax** text box, add the following simple
     membership rule and select **OK**.
 
-    !!**(device.deviceOSType -contains "Windows")**!!
+    ++**(device.deviceOSType -contains "Windows")**++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image39.png)
@@ -361,7 +361,7 @@ requirements**
     generated](./media/image47.png)
 
 7.  On the **Select groups to include** blade, in the **Search** box,
-    type and select !!**Contoso Developer devices**!!  and then click on
+    type and select ++**Contoso Developer devices**++  and then click on
     the **Select** button.
 
     ![](./media/image48.png)
@@ -379,9 +379,9 @@ requirements**
 1.  Switch to SEA-WS1, and Login
     using Cindy White’s account.
 
-    - Username - !!**Cindy@M365xXXXXXXX.onmicrosoft.com**!!
+    - Username - ++**Cindy@M365xXXXXXXX.onmicrosoft.com**++
 
-    - Password – !!**P@55w.rd1234**!!
+    - Password – ++**P@55w.rd1234**++
 
 2.  On the taskbar, select **Start** and then select **Settings**.
 
