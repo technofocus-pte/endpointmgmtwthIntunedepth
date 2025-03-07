@@ -26,7 +26,7 @@ automatically enroll in Microsoft Intune.
 
 **Task 1: Automatically enroll a Windows device to Microsoft Intune**
 
-1.  Switch to SEA-WS1 and sign in as **Admin** with the password of !!Pa55w.rd!!
+1.  Switch to SEA-WS1 and sign in as **Admin** with the password of ++Pa55w.rd++
 
     ![A screenshot of a computer Description automatically generated with
     medium confidence](./media/image1.png)
@@ -56,13 +56,13 @@ automatically enroll in Microsoft Intune.
 
     ![](./media/image6.png)
 
-7.  On the **Sign in** page, type !!Cindy@M365x51282399.onmicrosoft.com!!
+7.  On the **Sign in** page, type ++Cindy@M365x51282399.onmicrosoft.com++
      and then select **Next**.
 
     ![](./media/image7.png)
 
 8.  On the **Enter password** page, enter the password:
-    !!P@55w.rd1234!! and then select **Sign in**.
+    ++P@55w.rd1234++ and then select **Sign in**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image8.png)
@@ -98,7 +98,7 @@ automatically enroll in Microsoft Intune.
 **Task 2: Validate device enrollment into Microsoft Entra And Intune**
 
 1.  On the **SEA-WS1** taskbar, select **Start**,
-    type !!certlm.msc!! press **Enter**.
+    type ++certlm.msc++ press **Enter**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image13.png)
@@ -137,7 +137,7 @@ automatically enroll in Microsoft Intune.
 
 7.  In the PowerShell console, type the following and press **Enter**:
 
-    !!dsregcmd /status!!
+    ++dsregcmd /status++
 
 8.  In the output, under **Device State**, verify that **AzureAdJoined :
     YES** is displayed. This indicates that the device is Azure AD
@@ -165,8 +165,8 @@ automatically enroll in Microsoft Intune.
     account.
 
 2.  On the Sign in screen select Other user and sign in
-    as !!Cindy@M365xXXXXXXX.onmicrosoft.com!!  with the password:
-     !!P@55w.rd1234!!
+    as ++Cindy@M365xXXXXXXX.onmicrosoft.com++  with the password:
+     ++P@55w.rd1234++
 
     ![](./media/image20.png)
 
@@ -177,7 +177,7 @@ automatically enroll in Microsoft Intune.
 
     **Note** – If you are prompted for **Windows Hello**, then complete the
     sign in process accordingly and on the **Set up a PIN** page, in
-    the **New PIN** and **Confirm PIN** boxes, type !!**102938**!!  and then
+    the **New PIN** and **Confirm PIN** boxes, type ++**102938**++  and then
     select **OK**.
 
     ![A screenshot of a computer Description automatically
@@ -189,7 +189,7 @@ automatically enroll in Microsoft Intune.
 
 1.  Switch``to SEA-SVR1 and login using the provided credentials.
 
-2.  In Microsoft Edge browser, type !!https://intune.microsoft.com!!
+2.  In Microsoft Edge browser, type ++https://intune.microsoft.com++
     in the address bar, and then press **Enter**. Sign in with your
     Office 365 Tenant administrator account.
 
@@ -220,7 +220,7 @@ automatically enroll in Microsoft Intune.
     joined or registered to Entra, but not enrolled in Intune.
 
 6.  Open a new tab and navigate to **Microsoft Entra admin center**
-    !!https://entra.microsoft.com!!. Click on **Devices** and then
+    ++https://entra.microsoft.com++. Click on **Devices** and then
     select **All devices**.
 
     ![A screenshot of a computer Description automatically
