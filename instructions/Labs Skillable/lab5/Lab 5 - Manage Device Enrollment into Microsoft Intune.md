@@ -73,7 +73,7 @@ devices.
     ![A screenshot of a computer Description automatically
     generated](./media/image8.png)
 
-7.  Search and select !!Cindy White!!
+7.  Search and select ++Cindy White++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image9.png)
@@ -119,7 +119,7 @@ devices.
 3.  In the **Windows PowerShell** window, type the following command,
     and then press **Enter**:
 
-    !!Connect-MsolService!!
+    ++Connect-MsolService++
 
     ![A computer screen with white text Description automatically
     generated](./media/image17.png)
@@ -150,7 +150,7 @@ devices.
 **Task 3: Enable Windows Automatic Enrollment into Microsoft Intune**
 
 1.  In **SEA-SVR1**, open a new tab in **Microsoft Edge**, and then in
-    the address bar type !!https://Endpoint.microsoft.com!! and then
+    the address bar type ++https://Endpoint.microsoft.com++ and then
     press **Enter**. If prompted to sign in, provide the Credential of
     the **Office 365 Tenant Admin**.
 
@@ -199,7 +199,7 @@ devices.
     ![](./media/image28.png)
 
 4.  On the **Create restriction** page, in the **Name** box,
-    enter !!Android Personal Device Restriction!! Select **Next**.
+    enter ++Android Personal Device Restriction++ Select **Next**.
 
     ![](./media/image29.png)
     
@@ -263,8 +263,8 @@ devices.
     ![A screenshot of a computer Description automatically
     generated](./media/image38.png)
 
-13. On the Create restriction page, in the **Name** box, enter !!Sales
-    Device Enrollment Limit!! Select **Next**.
+13. On the Create restriction page, in the **Name** box, enter ++Sales
+    Device Enrollment Limit++ Select **Next**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image39.png)
@@ -332,7 +332,7 @@ devices.
     generated](./media/image49.png)
 
 5.  In the **Add user** page, under User name, enter the email address
-    of Allan !!AllanD@M365xXXXXXXX.onmicrosoft.com!!
+    of Allan ++AllanD@M365xXXXXXXX.onmicrosoft.com++
      (substitute **XXXXXX** with your tenant name) and then
     select **Add**.
 
