@@ -83,11 +83,11 @@ having Joni Sherman join SEA-WS1 to the tenant.
 
 1.  Switch to **SEA-SVR1**. In the **Microsoft Edge** browser address
     bar, type the following URL:
-    !!https://entra.microsoft.com!!
+    ++https://entra.microsoft.com++
     and press the **Enter** button.
 
 2.  Sign in with your O365 tenant ID:
-    !!**admin@M365xXXXXXXXX.onmicrosoft.com**!!, and use the tenant
+    ++**admin@M365xXXXXXXXX.onmicrosoft.com**++, and use the tenant
     Admin password.
 
     ![A screenshot of a computer Description automatically
@@ -155,7 +155,7 @@ having Joni Sherman join SEA-WS1 to the tenant.
     ![A screenshot of a computer Description automatically
     generated](./media/image13.png)
 
-12. In the Search box, enter !!**Allan Deyoung**!!, select the **Allan
+12. In the Search box, enter ++**Allan Deyoung**++, select the **Allan
     Deyoung** user object, and then select **Add**.
 
     ![A screenshot of a computer Description automatically
@@ -182,7 +182,7 @@ having Joni Sherman join SEA-WS1 to the tenant.
 
 1.  Switch
     to SEA-WS1 and
-    sign in as **Admin** with the password of !!Pa55w.rd!!
+    sign in as **Admin** with the password of ++Pa55w.rd++
 
     ![](./media/image18.png)
 
@@ -213,13 +213,13 @@ having Joni Sherman join SEA-WS1 to the tenant.
     generated](./media/image23.png)
 
 7.  On the **Sign in** page, type 
-    !!JoniS@M365xXXXXXXX.onmicrosoft.com!!  and then select **Next**.
+    ++JoniS@M365xXXXXXXX.onmicrosoft.com++  and then select **Next**.
 
     ![Graphical user interface, application, Teams Description automatically
     generated](./media/image24.png)
 
 8.  On the **Enter password** page, enter the tenant password:
-    !!P@55w.rd1234!! and then select **Sign
+    ++P@55w.rd1234++ and then select **Sign
     in**.
 
     ![Graphical user interface, application Description automatically
@@ -259,7 +259,7 @@ having Joni Sherman join SEA-WS1 to the tenant.
 3.  In the PowerShell console, type the following command and press the
     **Enter** button:
 
-    !!dsregcmd /status!!
+    ++dsregcmd /status++
 
 4.  In the output, under **Device State**, verify that **AzureAdJoined :
     YES** is displayed.
@@ -304,7 +304,7 @@ having Joni Sherman join SEA-WS1 to the tenant.
     ![](./media/image37.png)
 
 10. Switch to **SEA-SVR1** and login with the credentials
-    **Contoso\Administrator** and password !!**Pa55w.rd**!!
+    **Contoso\Administrator** and password ++**Pa55w.rd**++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image38.png)
@@ -336,8 +336,8 @@ having Joni Sherman join SEA-WS1 to the tenant.
 
     ![](./media/image42.png)
 
-2.  **Sign** in as !!**JoniS@M365xXXXXXXX.onmicrosoft.com**!!  with the
-    tenant password: !!**P@55w.rd1234**!!
+2.  **Sign** in as ++**JoniS@M365xXXXXXXX.onmicrosoft.com**++  with the
+    tenant password: ++**P@55w.rd1234**++
 
     **Note: Wait for the profile to be created.**
 
@@ -345,7 +345,7 @@ having Joni Sherman join SEA-WS1 to the tenant.
 
     **Note** – If you are prompted for **Windows Hello**, then complete the
     sign in process accordingly and on the **Set up a PIN** page, in
-    the **New PIN** and **Confirm PIN** boxes, type !!**102938**!!  and then
+    the **New PIN** and **Confirm PIN** boxes, type ++**102938**++  and then
     select **OK**.
 
     ![](./media/image44.png)
@@ -354,8 +354,8 @@ having Joni Sherman join SEA-WS1 to the tenant.
 
 1.  On SEA-WS1,
     login with Joni Sherman if prompted and if the option to enter the
-    Pin is available then enter the pin: !!102938!! or enter the
-    password as !!P@55w.rd1234!!
+    Pin is available then enter the pin: ++102938++ or enter the
+    password as ++P@55w.rd1234++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image45.png)
@@ -391,8 +391,8 @@ having Joni Sherman join SEA-WS1 to the tenant.
     generated](./media/image51.png)
 
 6.  On the **Windows Security** dialog box, in the **Email
-    address** box, enter !!Admin!! and in the **Password** box,
-    type !!Pa55w.rd!!. Select **OK**.
+    address** box, enter ++Admin++ and in the **Password** box,
+    type ++Pa55w.rd++. Select **OK**.
 
     ![Graphical user interface Description automatically
     generated](./media/image52.png)
@@ -438,7 +438,7 @@ testing out the process on SEA-CL2.
     ![](./media/image56.png)
 
 4.  In the **New-Object - Organizational Unit** dialog box,
-    type !!**Entra clients**!! and then select **OK**.
+    type ++**Entra clients**++ and then select **OK**.
 
     ![A screenshot of a computer Description automatically
     generated](./media/image57.png)
@@ -563,7 +563,7 @@ testing out the process on SEA-CL2.
     ![](./media/image76.png)
 
 9.  In the **Enterprise Admin Credentials** window
-    enter **Contoso\Administrator** as **Username** and !!**Pa55w.rd**!! as **Password**.
+    enter **Contoso\Administrator** as **Username** and ++**Pa55w.rd**++ as **Password**.
     Select **OK** and select **Next**.
 
     ![A screenshot of a computer security Description automatically
@@ -591,7 +591,7 @@ testing out the process on SEA-CL2.
 13. In the **Windows PowerShell** window, type the following command,
     and then press **Enter**:
 
-    !!Start-ADSyncSyncCycle -PolicyType Initial!!
+    ++Start-ADSyncSyncCycle -PolicyType Initial++
 
     ![A screenshot of a computer Description automatically
     generated](./media/image82.png)
@@ -616,7 +616,7 @@ testing out the process on SEA-CL2.
     On SEA-CL2
 
 3.  After **SEA-CL2** has restarted, sign in
-    as **Contoso\Administrator** with the password of !!Pa55w.rd!!
+    as **Contoso\Administrator** with the password of ++Pa55w.rd++
 
     ![Graphical user interface, application Description automatically
     generated](./media/image84.png)
@@ -630,7 +630,7 @@ testing out the process on SEA-CL2.
 5.  In the **Windows PowerShell** window, type the following command,
     and then press **Enter**:
 
-    !!dsregcmd /status!!
+    ++dsregcmd /status++
 
 6.  In the output under **Device State**, verify that. 
 
@@ -648,7 +648,7 @@ testing out the process on SEA-CL2.
     PowerShell** window, type the following command to speed up
     synchronization.
 
-    !!Start-ADSyncSyncCycle -PolicyType Initial!!
+    ++Start-ADSyncSyncCycle -PolicyType Initial++
 
 7.  Close all windows On SEA-CL2 and sign out.
 
