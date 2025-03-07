@@ -67,12 +67,12 @@ Entra Connect synchronization tool.
 
 1.  On ***SEA-SVR1***, if necessary, sign in
     as **Contoso\Administrator** with the
-    password of !!Pa55w.rd!!
+    password of ++Pa55w.rd++
 
 2.  On the taskbar, select **Microsoft Edge**.
 
 3.  In the address bar,
-    enter !!http://www.microsoft.com/en-us/download/details.aspx?id=47594!!
+    enter ++http://www.microsoft.com/en-us/download/details.aspx?id=47594++
 
 4.  On the Microsoft Entra Connect page, select **Download**.
 
@@ -124,8 +124,8 @@ Entra Connect synchronization tool.
 
 12. In the **AD forest account** window, select the **Create New AD
     Account** option, and in the **ENTERPRISE ADMIN USERNAME** field,
-    type !!Contoso\Administrator!!, and then
-    type !!Pa55w.rd!! in
+    type ++Contoso\Administrator++, and then
+    type ++Pa55w.rd++ in
     the **PASSWORD** field. Select **OK**, and then select **Next**.
 
      ![A screenshot of a computer screen Description automatically
@@ -190,7 +190,7 @@ Entra Connect synchronization tool.
 
 1.  In the **Microsoft Edge** open a new tab and navigate to the
     Microsoft Entra admin Center users page -
-    !!https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/**](https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/!!
+    ++https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/**](https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserManagementMenuBlade/~/AllUsers/menuId/++
     If prompted to sign in use the Office 365 Tenant credentials from
     the Home tab of the Lab interface.
 
