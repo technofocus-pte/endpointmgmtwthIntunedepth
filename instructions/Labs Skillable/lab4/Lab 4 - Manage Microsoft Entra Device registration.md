@@ -22,11 +22,11 @@ registration using a Windows 11 device.
 
 1.  On the SEA-SVR1,
     open a new tab in the Edge browser and enter the following URL,
-    !!https://entra.microsoft.com!!, then press the **Enter**
+    ++https://entra.microsoft.com++, then press the **Enter**
     button.
 
 2.  Sign in with your O365 tenant ID
-    !!admin@M365xXXXXXXXX.onmicrosoft.com!! and use the tenant Admin
+    ++admin@M365xXXXXXXXX.onmicrosoft.com++ and use the tenant Admin
     password.
 
      ![A screenshot of a computer Description automatically
@@ -59,7 +59,7 @@ registration using a Windows 11 device.
 
 **Task 2: Perform Microsoft Entra registration**
 
-1.  Switch to SEA-WS1 andsign in as **Admin** with the password of !!**Pa55w.rd**!!.
+1.  Switch to SEA-WS1 andsign in as **Admin** with the password of ++**Pa55w.rd**++.
 
     ![A screenshot of a computer Description automatically generated with
     medium confidence](./media/image6.png)
@@ -85,13 +85,13 @@ registration using a Windows 11 device.
     generated](./media/image10.png)
 
 6.  On the **Sign in** page,
-    type !!JoniS@M365xXXXXXXX.onmicrosoft.com!!  and then
+    type ++JoniS@M365xXXXXXXX.onmicrosoft.com++  and then
     select **Next**.
 
     ![](./media/image11.png)
 
 7.  On the **Enter password** page, enter the tenant password:
-    !!P@55w.rd1234!! and then select **Sign
+    ++P@55w.rd1234++ and then select **Sign
     in**
 
     ![A screenshot of a computer Description automatically
@@ -125,7 +125,7 @@ registration using a Windows 11 device.
 
 3.  In the PowerShell console, type the following and press **Enter**:
 
-    !!dsregcmd /status!!
+    ++dsregcmd /status++
 
 4.  In the output under **User State**, verify that **WorkplaceJoined :
     YES** is displayed. This indicates that the user has performed a
