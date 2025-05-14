@@ -81,8 +81,8 @@
 
 14. **SEA-WS1** 페이지의 **Monitor**에서 **User experience**를
     선택합니다.
-     ![A screenshot of a computer Description automatically
-     generated](./media/image6.png)
+    
+    ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
 16. **Endpoint analytics**, **Startup performance**, 및 **Application
     reliability** 탭을 검토합니다.
